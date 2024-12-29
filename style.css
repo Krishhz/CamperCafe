@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.main {
+  /* background-color: red; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  background-color: burlywood;
+  width: fit-content;
+  height: fit-content;
+  padding-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#heading {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  gap: 20px;
+}
+
+#heading h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#heading span {
+  font-size: 15px;
+  /* font-weight: bold;
+     */
+  font-style: italic;
+}
+
+hr {
+  width: 90%;
+  background-color: brown;
+  height: 3px;
+  border: 1px solid brown;
+}
+
+#menu {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+#coffee-menu, #dessert-menu {
+  font-size: 30px;
+}
+
+
+#coffees, #desserts{
+    /* background-color: red; */
+    list-style: none;
+    width: 100%;
+
+}
+
+.coffee, .dessert  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid brown;
+    font-size: 16px;
+}
+
+footer a{
+    color: black;
+}
+
+footer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
